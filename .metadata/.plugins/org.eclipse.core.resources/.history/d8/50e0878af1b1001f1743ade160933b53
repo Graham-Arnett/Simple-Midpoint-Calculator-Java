@@ -1,0 +1,19 @@
+package midPoint;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Welcome to the midpoint calculator app!");
+		String choice;
+				do 
+		{
+		System.out.print("Please enter your a");
+					
+		System.out.print("Would you like to go again? (y/n): ");
+		choice = scanner.next();	
+		}while(true);
+	}
+
+}
